@@ -115,6 +115,7 @@ describe('Summary', () => {
                 ...coreContextMockData,
                 authToken: '1234',
                 alreadyDeclared: false,
+                codicilPresent: false,
                 deceasedAliasQuestion: 'Did Dee Ceased have assets in another name?',
                 diedEnglandOrWalesQuestion: 'Did Dee Ceased die in England or Wales?',
                 deceasedNameAsOnWillQuestion: 'Is Dee Ceased exactly how the name is written on the will?',
